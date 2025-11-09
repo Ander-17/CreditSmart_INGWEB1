@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreditSmart - El mejor para inversiones inteligentes</title>
+    <link rel="stylesheet" href="./CSS/styless.css">
+</head>
+<body>
+    <!--Navegación-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="brand">
+                <img src="IMAGES/Logo.png" alt="logo" width="60" height="60">
+                <h1 class="logo">CreditSmart</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="simulador.html">Simulador</a></li>
+                <li><a href="solicitud.html">Solicitud</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Formulario de solicitud-->
+    <main class="container">
+        <section class="form-section">
+            <h3>Formulario de Solicitud de Crédito</h3>
+            <div class="form-container">
+                <div class="form-header">
+                    <h4>Datos personales</h4>
+                    <div class="form-body">
+                        <form>
+                        <label for="fullname">Nombre completo:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Número de teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="cedula">Cédula:</label>
+                        <input type="number" id="cedula" name="cedula" required>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-header">
+                    <h4>Datos del crédito</h4>
+                    <div class="form-body">
+                        <form>
+                        <label for="credit-type">Tipo de crédito:</label>
+                        <select id="credit-type" name="credit-type" required>
+                            <option value="libre-inversion">Crédito de libre inversión</option>
+                            <option value="nómina">Crédito para nómina</option>
+                            <option value="vehiculo">Crédito para vehículo</option>
+                            <option value="educacion">Crédito educativo</option>
+                            <option value="hipotecario">Crédito hipotecario</option>
+                            <option value="empresarial">Crédito empresarial</option>
+                        </select>
+
+                        <label for="monto">Monto solicitado:</label>
+                        <input type="number" id="monto" name="monto" required>
+
+                        <label for="plazo">Plazo (meses):</label>
+                        <select name="plazo-type" id="plazo-type">
+                            <option value="12">12 meses</option>
+                            <option value="24">24 meses</option>
+                            <option value="36">36 meses</option>
+                            <option value="48">48 meses</option>
+                            <option value="60">60 meses</option>
+                        </select>
+
+                        <label for="destino">Destino del Crédito:</label>
+                        <input type="textarea" id="destino" name="destino" required>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-header">
+                    <h4>Datos laborales</h4>
+                    <div class="form-body">
+                        <form>
+                        <label for="empleador">Empresa donde trabaja:</label>
+                        <input type="text" id="empleador" name="empleador" required>
+
+                        <label for="cargo">Cargo que ocupa:</label>
+                        <input type="text" id="cargo" name="cargo" required>
+
+                        <label for="ingresos">Ingresos mensuales:</label>
+                        <input type="number" id="ingresos" name="ingresos" required>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn-submit">Enviar solicitud</button>
+            <button type="reset" class="btn-clear">Limpiar formulario</button>
+
+
+        </section>
+
+    </main>
+<!-- Footer o Pie de página -->
+<footer class="main-footer">
+    <div class="container footer-content">
+        <img src="IMAGES/Logo.png" alt="logo" width="60" height="60" class="brand-footer">
+        <div class="footer-section contact-info">
+            <h4>Contacto</h4>
+            <p>Email: <a href="">credito.smart@example.com</a></p>
+            <p>Teléfono: +57 (604) 555-1234</p>
+        </div>
+
+        <div class="footer-section social-links">
+            <h4>Síguenos</h4>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <span class="social-icon"></span>Instagram: @creditsmart_oficial
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p>
+                &copy; 2025 CreditSmart &reg; | Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
